@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Database</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='table.css')}}">
+</head>
+    <table border = 1>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>City</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        {% for user in userDetail %}
+        <tr>
+            <td> {{ user[0] }} </td>
+            <td> {{ user[1] }} </td>
+            <td> {{ user[2] }} </td>
+            <td> {{ user[3] }} </td>
+            <td> {{ user[4] }} </td>
+            <td> {{ user[5] }} </td>
+        </tr>
+        {% endfor %}
+    </table>
+</html>

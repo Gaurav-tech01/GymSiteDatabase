@@ -1,0 +1,119 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('background.jpg');
+
+
+}
+
+
+.left {
+    display: inline-block;
+     /* border: 2px solid white; */
+
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.left img {
+    width: 150px;
+}
+
+.mid {
+
+    /* border: 2px solid green; */
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+    top: 20px;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 40px;
+
+    display: inline-block;
+    /* border: 2px solid white; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: whitesmoke;
+    text-decoration: underline;
+
+}
+
+#ali {
+    margin: auto;
+
+}
+
+.btn {
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: Grey;
+}
+
+.container {
+
+    border: 2px solid white;
+    margin: 140px 100px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 20px;
+
+}
+.container h1{
+    color: white;
+}
+
+.container input {
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.form-group h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 25%;
+    margin: 20px auto;
+}
